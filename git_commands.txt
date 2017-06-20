@@ -1,0 +1,20 @@
+//To clean windows
+
+Ctrl+l
+
+//To set up user and email
+
+git config --global user.name "leandrobcastilho"
+git config --global user.email "leandrobcastilho@hotmail.com"
+
+git config --list
+
+//Initialize Repository
+git init
+
+git status
+
+//Add files
+git add git_commands.txt
+
+git commit -m "first commit"
