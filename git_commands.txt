@@ -18,3 +18,18 @@ git status
 git add git_commands.txt
 
 git commit -m "first commit"
+
+git add git_file_status_lifecyce.PNG
+
+git commit -m "second commit"
+
+git log
+git log --decorate
+git log --autor="leandrobcastilho"
+git shortlog
+git log --graph
+git show d6449d328a304c3fc407d275a5e8877ed2fabfc7
+
+git diff
+git diff --name-only
+git commit -am "new commands"
