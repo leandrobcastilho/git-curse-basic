@@ -69,6 +69,9 @@ git branch -D test
 git checkout test_branch
 
 //joining different branches
-//Merge
-//Rebase
 
+//Merge
+git checkout master
+git merge 'test_branch'
+
+//Rebase
