@@ -3,7 +3,6 @@
 Ctrl+l
 
 //To set up user and email
-
 git config --global user.name "leandrobcastilho"
 git config --global user.email "leandrobcastilho@hotmail.com"
 
@@ -33,3 +32,39 @@ git show d6449d328a304c3fc407d275a5e8877ed2fabfc7
 git diff
 git diff --name-only
 git commit -am "new commands"
+
+git checkout git_commands.txt
+git reset HEAD git_commands.txt
+git reset --soft
+git reset --mixed
+git reset --hard
+
+
+//change set up user and email
+git config --global user.email "leandrobcastilho@hotmail.com"
+
+//Change author commits
+git commit --amend --no-edit --reset-author
+
+//Connecting to gitHub repository
+git remote add origin https://github.com/leandrobcastilho/git-curse.git
+git remote
+git remote -v
+
+//Send files to gitHub repository
+git push -u origin master
+
+//Clone to gitHub repository
+git clone https://github.com/leandrobcastilho/git-curse-basic.git git-curse-basic
+
+//Add branch
+git checkout -b test
+
+git branch
+
+//Remove branch
+git branch -D test
+
+//change branch
+git checkout test_branch
+
