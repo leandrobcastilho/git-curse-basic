@@ -76,4 +76,5 @@ git merge 'test_branch'
 
 //Rebase
 git checkout -b test_rebase
+git checkout master
 git rebase 'test_rebase'
